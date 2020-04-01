@@ -1,0 +1,119 @@
+.logo{
+  width: 200px;
+  height: 60px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.list {
+  margin-left: auto;
+}
+
+.nav-item{
+
+  padding:0 18px;
+  color: black;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  color: black;
+}
+
+.intro{
+  text-align: center;
+  font-size: 3rem;
+  padding: 200px;
+
+}
+.section1{
+  background-color: #333333;
+  background-image: url("setup.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e1f4f3;
+}
+
+#features{
+  /* margin: 100px; */
+  background-color: #e1f4f3;
+}
+.heading {
+  text-align: center;
+}
+.text{
+  text-align: left;
+}
+.list{
+  text-align:center;
+}
+
+
+.profile{
+  transform: rotate(-90deg);
+  width: 100%;
+  border-radius: 70%;
+  padding:150px 0px;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+}
+
+.feature {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  padding: 15px;
+  width: 60px;
+  color: white;
+}
+.samples {
+  text-align: center;
+  background-color: #27496d;
+  color: #e1f4f3;
+}
+.works {
+
+  width:50%;
+}
+.cta {
+  text-align: center;
+  background-color: #27496d;
+  color: #e1f4f3;
+
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .intro{
+    text-align: center;
+    font-size:1.5em;
+    margin: 200px 0px 200px 0px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .intro{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 200px 0px 200px 0px;
+  }
+
+ body {
+   overflow-x: hidden;
+ }
+
+}
